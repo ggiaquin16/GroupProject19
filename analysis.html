@@ -1,0 +1,68 @@
+<html>
+
+<head>
+	<title>Top Cars</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--Load the AJAX API-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="index.html" class="logo">Popular Cars</a>
+			<nav id="nav">
+				<a href="index.html">Home</a>
+				<a href="analysis.html">Analysis</a>
+			</nav>
+		</div>
+	</header>
+	<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+	<!-- Main -->
+	<section id="main">
+		<div class="inner">
+			<header class="major special">
+				<h1>Analysis</h1>
+				<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+			</header>
+			<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet
+				faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing.
+				Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet.
+				Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus
+				nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu
+				accumsan lorem amet accumsan.</p>
+			<form>
+				<label>Year Selector</label>
+				<div class="dropdown">
+					<select id="Year" name="Year">
+						<option value='2019'>2019</option>
+						<option value='2018'>2018</option>
+						<option value='2017'>2017</option>
+						<option value='2016'>2016</option>
+						<option value='2015'>2015</option>
+					</select>
+					<button type="submit" name='ChartButton' onclick="GenerateChart()">Generate Charts</button>
+			</form>
+		</div>
+		<div id='barChartDiv'></div>
+		<div id='chart_div3'></div>
+
+		</div>
+
+	</section>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/api.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+</body>
+
+</html>
